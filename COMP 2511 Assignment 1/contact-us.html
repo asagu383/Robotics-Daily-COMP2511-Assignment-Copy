@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="Robotics, Robot, Technology, Artifical Intelligence, Machine Learning">
+        <meta name="description" content="The latest news in the Robotics field">
+        <meta name="author" content="Aulphrine Sagudan">
+        <title> Contact Us | Robotics Daily </title>
+        <link rel="stylesheet" href="css/style-header.css">
+        <link rel="stylesheet" href="css/style-footer.css">
+        <link rel="stylesheet" href="css/style-contact-us.css">
+        <link rel="stylesheet" href="css/style-general.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet"> <!--Link to font-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--Link to social media icons-->
+    
+    </head>
+    
+    <body>
+        <header>
+            <div>
+                <img src="images/rd_logo.svg" alt="Robotics Daily Logo">
+            </div>
+                
+            <nav>
+                <ul>
+                    <li><a href="titlepage.html"> Home </a></li>
+                    <li><a  href="index.html"> News </a></li>
+                    <li><a href="about.html"> About </a></li>
+                    <li><a class="current" href="contact-us.html"> Contact Us </a></li>
+                </ul>
+                <hr class="line">
+            </nav>
+            
+            
+        </header>
+        
+        <div>
+            <main>
+                <h1> Contact Us </h1>
+                <h2> Got a question or want to give us feeback? </h2>
+                
+                <p> Please fill in your information and we'll get back to you within 48 hours! </p>
+                
+                <form method="get" action="mailto:robotics_daily@roboticsdaily.ca">
+                    <fieldset>
+                        <legend><h3> Your information </h3></legend>
+                        <div>
+                            <label> Your Name: 
+                                <input name="name" type="text">
+                            </label>
+                        </div>
+                        
+                        <div>
+                            <label > <span> * </span> Your Email: 
+                                
+                                <input name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="example@gmail.com" required>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label> Date of Birth: 
+                                <input name="date" type="date">
+                            </label>
+                        </div>
+
+                        <div>
+                            <label> Gender: 
+                                <input name="gender" type="radio" value="Male"> Male
+                            </label>
+                            
+                            <label>
+                                <input name="gender" type="radio" value="Female"> Female
+                            </label>
+                            
+                            <label>
+                                <input name="gender" type="radio" value="Non-binary"> Non-binary
+                            </label>
+                            
+                            <label>
+                                <input name="gender" type="radio" value="Prefer not to say"> Prefer not to say
+                            </label>
+                        </div>
+
+                        <div>
+                            <label> Phone Number: 
+                                <input name="tel" type="tel" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" placeholder="333-333-3333">
+                            </label>
+                        </div>
+
+                        <div>
+                            <label> <span> * </span> Subject: 
+                                <input name="subject" type="text" maxlength="50" required>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label for="textarea" class="required"> <span> * </span> Message: 
+                                <textarea id="textarea" name="textarea" cols="40" rows="5" required></textarea>
+                            </label>
+                        </div>
+
+                        <div>
+                            <label>
+                                Where would you like to receive a response?
+                            </label>
+                                
+                            <label>
+                                <input name="medium" type="checkbox" value="Email"> Email
+                            </label>
+                            
+                            <label>
+                                <input name="medium" type="checkbox" value="Phone Number"> Phone Number
+                            </label>
+                        </div>
+                        
+                        <div class="submit-reset-buttons">
+                            <input name="submit" type="submit" value="Submit">
+                            <input name="reset" type="reset" value="Reset">
+                        </div>
+                    </fieldset>
+                </form>
+            </main>
+        
+        </div>
+        
+        <footer>
+            <div class="row">
+                
+                <div class="column">
+                        <img src="images/rd_logo_white.svg" alt="Robotics Daily Logo">
+                </div>
+                
+                
+                <div class="column">
+                    <h2> Subscriptions </h2>
+                    <p><a href="#"> Newsletters </a></p>
+                    <p><a href="#"> Robotics Daily Membership </a></p>
+                </div>
+
+                <div class="column">
+                    <h2> Robotics Daily </h2>
+                    <p><a href="#"> Reviews </a></p>
+                    <p><a href="#"> Contribute </a></p>
+                    <p><a href="#"> Privacy Policy </a></p>
+                    <p><a href="#"> Terms of Service </a></p>
+                </div>
+
+                <div class="column">
+                    <h2> Connect with Us </h2>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                </div>
+
+                <div class="column">
+                    <h2> &copy; 2021 Robotics Daily All Rights Reserved </h2>
+                </div>
+                
+                
+            </div>
+     
+        </footer>
+    </body>
