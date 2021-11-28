@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Small device*/
+@media screen and (max-width: 899px) {
+    .row-article {
+        margin-top: 20px;
+    }
+}
+
+
+/*Medium device*/
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+    #main-content-container {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 20px 20px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}
+
+/*Large device - mostly fluid*/
+@media screen and (min-width: 1201px) {
+    header, main, footer {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+    #main-content-container {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 20px 20px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}
