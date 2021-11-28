@@ -11,21 +11,28 @@ body {
     flex-wrap: wrap;
 }
 
-/*Small device
-@media screen and (max-width: 650px) {
-    main {
-        
+/*Small device*/
+@media screen and (max-width: 899px) {
+    .row-article {
+        margin-top: 20px;
     }
-}*/
+}
 
 
 /*Medium device*/
 @media screen and (min-width: 900px) and (max-width: 1200px) {
-    
-    
+    #main-content-container {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 20px 20px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
 }
 
-/*Large device*/
+/*Large device - mostly fluid*/
 @media screen and (min-width: 1201px) {
     header, main, footer {
         width: 1000px;
@@ -34,7 +41,13 @@ body {
         
     }
     
-    main {
-        
+    #main-content-container {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 20px 20px;
+        margin-right: 5%;
+        margin-left: 5%;
     }
 }
